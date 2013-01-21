@@ -3,7 +3,8 @@ void setup () {
 }
 
 void draw () {
-background(180,60,250);
-stroke(255);  
+background(255,240,0);
+stroke(0,0,0);
+strokeWeight(4);
  line (width/2, height/2, mouseX, mouseY);
 }
